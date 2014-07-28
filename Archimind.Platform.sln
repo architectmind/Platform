@@ -1,0 +1,125 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archimind.Platform.BusinessEntities", "Archimind.Platform.BusinessEntities\Archimind.Platform.BusinessEntities.csproj", "{89C70951-F3EC-4016-9487-76A05B9ADF68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archimind.Platform.DataModel", "Archimind.Platform.DataModel\Archimind.Platform.DataModel.csproj", "{39BAAA84-6102-4C9E-AA43-87AE3A3A18F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archimind.Platform.DataModel.Tests", "Archimind.Platform.DataModel.Tests\Archimind.Platform.DataModel.Tests.csproj", "{3032D56E-357D-4D08-8FFE-9BE4B9A2C175}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{63BBDC43-6A38-4390-98EA-A6DAADA63D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archimind.Platform.Core", "Archimind.Platform.Core\Archimind.Platform.Core.csproj", "{8339732B-D625-4976-AA1D-046CEF9FE9D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archimind.Platform.Instrumentation", "Archimind.Platform.Instrumentation\Archimind.Platform.Instrumentation.csproj", "{E89DCAD0-3162-4445-BB99-BB76F1F739AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Model", "Service Model", "{92090355-CECD-4C75-AEB2-6E13768C3827}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Model", "Business Model", "{34272713-A3DF-4D76-A381-D0057A4643EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Model", "Data Model", "{A2328C95-9BE3-47AD-A4F3-DD5A3CFB4B92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{42BD6FD1-8AD7-4656-8D5B-811909AD0D42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archimind.Platform.ServiceModel.Security.Contracts", "Archimind.Platform.ServiceModel.Security.Contracts\Archimind.Platform.ServiceModel.Security.Contracts.csproj", "{DEFA5C83-FAE9-4657-B625-DF171C55753F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{3B9805D6-434E-43FE-B4B5-90A998A45F4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archimind.Platform.ServiceModel.Security.Services", "Archimind.Platform.ServiceModel.Security.Services\Archimind.Platform.ServiceModel.Security.Services.csproj", "{8D3DD305-6DF4-47EE-A0F1-F2A5AF434D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archimind.Platform.ServiceModel.Security.Host", "Archimind.Platform.ServiceModel.Security.Host\Archimind.Platform.ServiceModel.Security.Host.csproj", "{06569C79-3EFA-4637-8A49-F6B9CA434078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archimind.Platform.ServiceModel.Security.Client", "Archimind.Platform.ServiceModel.Security.Client\Archimind.Platform.ServiceModel.Security.Client.csproj", "{D629779B-3594-4730-9A3A-F2881399E5E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archimind.Platform.BusinessModel", "Archimind.Platform.BusinessModel\Archimind.Platform.BusinessModel.csproj", "{AFEC8DB1-3E53-44F8-8483-583D9FD51A65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archimind.Platform.ServiceModel", "Archimind.Platform.ServiceModel\Archimind.Platform.ServiceModel.csproj", "{B412CD85-D8FF-4726-9CE9-9D284585EBAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{1A73C1B9-4C8F-46E7-9074-DF03E57C3737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archimind.Platform.Patterns", "Archimind.Platform.Patterns\Archimind.Platform.Patterns.csproj", "{F0801DFD-ABAB-4870-93CB-ED8ECE6F03D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archimind.Platform.DataModel.Orm.EntityFramework", "Archimind.Platform.DataModel.Orm.EntityFramework\Archimind.Platform.DataModel.Orm.EntityFramework.csproj", "{B65C75C3-6879-46B7-9692-411FD219DF6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89C70951-F3EC-4016-9487-76A05B9ADF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C70951-F3EC-4016-9487-76A05B9ADF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C70951-F3EC-4016-9487-76A05B9ADF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C70951-F3EC-4016-9487-76A05B9ADF68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39BAAA84-6102-4C9E-AA43-87AE3A3A18F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39BAAA84-6102-4C9E-AA43-87AE3A3A18F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39BAAA84-6102-4C9E-AA43-87AE3A3A18F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39BAAA84-6102-4C9E-AA43-87AE3A3A18F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3032D56E-357D-4D08-8FFE-9BE4B9A2C175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3032D56E-357D-4D08-8FFE-9BE4B9A2C175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3032D56E-357D-4D08-8FFE-9BE4B9A2C175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3032D56E-357D-4D08-8FFE-9BE4B9A2C175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8339732B-D625-4976-AA1D-046CEF9FE9D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8339732B-D625-4976-AA1D-046CEF9FE9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8339732B-D625-4976-AA1D-046CEF9FE9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8339732B-D625-4976-AA1D-046CEF9FE9D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89DCAD0-3162-4445-BB99-BB76F1F739AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89DCAD0-3162-4445-BB99-BB76F1F739AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89DCAD0-3162-4445-BB99-BB76F1F739AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89DCAD0-3162-4445-BB99-BB76F1F739AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFA5C83-FAE9-4657-B625-DF171C55753F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFA5C83-FAE9-4657-B625-DF171C55753F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFA5C83-FAE9-4657-B625-DF171C55753F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFA5C83-FAE9-4657-B625-DF171C55753F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3DD305-6DF4-47EE-A0F1-F2A5AF434D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3DD305-6DF4-47EE-A0F1-F2A5AF434D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3DD305-6DF4-47EE-A0F1-F2A5AF434D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3DD305-6DF4-47EE-A0F1-F2A5AF434D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06569C79-3EFA-4637-8A49-F6B9CA434078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06569C79-3EFA-4637-8A49-F6B9CA434078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06569C79-3EFA-4637-8A49-F6B9CA434078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06569C79-3EFA-4637-8A49-F6B9CA434078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D629779B-3594-4730-9A3A-F2881399E5E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D629779B-3594-4730-9A3A-F2881399E5E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D629779B-3594-4730-9A3A-F2881399E5E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D629779B-3594-4730-9A3A-F2881399E5E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFEC8DB1-3E53-44F8-8483-583D9FD51A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFEC8DB1-3E53-44F8-8483-583D9FD51A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFEC8DB1-3E53-44F8-8483-583D9FD51A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFEC8DB1-3E53-44F8-8483-583D9FD51A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B412CD85-D8FF-4726-9CE9-9D284585EBAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B412CD85-D8FF-4726-9CE9-9D284585EBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B412CD85-D8FF-4726-9CE9-9D284585EBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B412CD85-D8FF-4726-9CE9-9D284585EBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0801DFD-ABAB-4870-93CB-ED8ECE6F03D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0801DFD-ABAB-4870-93CB-ED8ECE6F03D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0801DFD-ABAB-4870-93CB-ED8ECE6F03D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0801DFD-ABAB-4870-93CB-ED8ECE6F03D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B65C75C3-6879-46B7-9692-411FD219DF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B65C75C3-6879-46B7-9692-411FD219DF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B65C75C3-6879-46B7-9692-411FD219DF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B65C75C3-6879-46B7-9692-411FD219DF6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89C70951-F3EC-4016-9487-76A05B9ADF68} = {34272713-A3DF-4D76-A381-D0057A4643EF}
+		{AFEC8DB1-3E53-44F8-8483-583D9FD51A65} = {34272713-A3DF-4D76-A381-D0057A4643EF}
+		{39BAAA84-6102-4C9E-AA43-87AE3A3A18F5} = {A2328C95-9BE3-47AD-A4F3-DD5A3CFB4B92}
+		{B65C75C3-6879-46B7-9692-411FD219DF6E} = {A2328C95-9BE3-47AD-A4F3-DD5A3CFB4B92}
+		{3032D56E-357D-4D08-8FFE-9BE4B9A2C175} = {63BBDC43-6A38-4390-98EA-A6DAADA63D84}
+		{E89DCAD0-3162-4445-BB99-BB76F1F739AC} = {42BD6FD1-8AD7-4656-8D5B-811909AD0D42}
+		{8339732B-D625-4976-AA1D-046CEF9FE9D5} = {42BD6FD1-8AD7-4656-8D5B-811909AD0D42}
+		{3B9805D6-434E-43FE-B4B5-90A998A45F4C} = {92090355-CECD-4C75-AEB2-6E13768C3827}
+		{B412CD85-D8FF-4726-9CE9-9D284585EBAC} = {92090355-CECD-4C75-AEB2-6E13768C3827}
+		{DEFA5C83-FAE9-4657-B625-DF171C55753F} = {3B9805D6-434E-43FE-B4B5-90A998A45F4C}
+		{8D3DD305-6DF4-47EE-A0F1-F2A5AF434D32} = {3B9805D6-434E-43FE-B4B5-90A998A45F4C}
+		{06569C79-3EFA-4637-8A49-F6B9CA434078} = {3B9805D6-434E-43FE-B4B5-90A998A45F4C}
+		{D629779B-3594-4730-9A3A-F2881399E5E2} = {3B9805D6-434E-43FE-B4B5-90A998A45F4C}
+		{F0801DFD-ABAB-4870-93CB-ED8ECE6F03D3} = {1A73C1B9-4C8F-46E7-9074-DF03E57C3737}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.WCF.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal

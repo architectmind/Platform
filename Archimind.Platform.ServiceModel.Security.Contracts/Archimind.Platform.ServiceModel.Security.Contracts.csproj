@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DEFA5C83-FAE9-4657-B625-DF171C55753F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Archimind.Platform.ServiceModel.Security.Contracts</RootNamespace>
+    <AssemblyName>Archimind.Platform.ServiceModel.Security.Contracts</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Bin\Archimind.Platform\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\..\Bin\Archimind.Platform\Archimind.Platform.ServiceModel.Security.Contracts.xml</DocumentationFile>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>..\..\CodeAnalysis.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Archimind.Public.Private.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Serialize.Linq">
+      <HintPath>..\packages\Serialize.Linq.1.1.4\lib\net45\Serialize.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\CommonAssemblyInfo.cs">
+      <Link>Properties\CommonAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="Bases\DataContractBase.cs" />
+    <Compile Include="Bases\RequestMessageContractBase.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security Store\Data Contracts\CredentialData.cs" />
+    <Compile Include="Security Store\Data Contracts\CredentialDataCollection.cs" />
+    <Compile Include="Security Store\Data Contracts\UserData.cs" />
+    <Compile Include="Security Store\Data Contracts\UserDataCollection.cs" />
+    <Compile Include="Security Store\Message Contracts\SecurityStoreCreateUserRequest.cs" />
+    <Compile Include="Security Store\Message Contracts\SecurityStoreCreateUserResponse.cs" />
+    <Compile Include="Security Store\Message Contracts\SecurityStoreDeleteUserRequest.cs" />
+    <Compile Include="Security Store\Message Contracts\SecurityStoreDeleteUserResponse.cs" />
+    <Compile Include="Security Store\Message Contracts\SecurityStoreGetUserByIdRequest.cs" />
+    <Compile Include="Security Store\Message Contracts\SecurityStoreGetUserByIdResponse.cs" />
+    <Compile Include="Security Store\Message Contracts\SecurityStoreGetUsersRequest.cs" />
+    <Compile Include="Security Store\Message Contracts\SecurityStoreGetUsersResponse.cs" />
+    <Compile Include="Security Store\Message Contracts\SecurityStoreGetUsersWithFiltersRequest.cs" />
+    <Compile Include="Security Store\Message Contracts\SecurityStoreGetUsersWithFiltersResponse.cs" />
+    <Compile Include="Security Store\Message Contracts\SecurityStoreUpdateUserRequest.cs" />
+    <Compile Include="Security Store\Message Contracts\SecurityStoreUpdateUserResponse.cs" />
+    <Compile Include="Security Store\Service Contracts\ISecurityStoreService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Archimind.Public.Private.snk" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Archimind.Platform.Core\Archimind.Platform.Core.csproj">
+      <Project>{8339732b-d625-4976-aa1d-046cef9fe9d5}</Project>
+      <Name>Archimind.Platform.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Archimind.Platform.ServiceModel\Archimind.Platform.ServiceModel.csproj">
+      <Project>{b412cd85-d8ff-4726-9ce9-9d284585ebac}</Project>
+      <Name>Archimind.Platform.ServiceModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

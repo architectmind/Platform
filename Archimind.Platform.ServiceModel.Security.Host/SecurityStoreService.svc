@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Archimind.Platform.ServiceModel.Security.Services.SecurityStoreService" %>
